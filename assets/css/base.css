@@ -1,0 +1,122 @@
+/* Value	Common weight name
+400	Normal (Regular)
+500	Medium
+600	Semi Bold (Demi Bold)
+700	Bold */
+
+:root {
+    --navbar-header-height: 60px;
+    --hero-width: 734px;
+    --text-color: #000;
+    --white: #fff;
+    --white-1: #fbfbfb;
+    --dark: #1F2326;
+    --dark-1: #81879D;
+    --primary-button: #1663F9;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Sora', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Mulish', sans-serif;
+    box-sizing: border-box;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+.features__title {
+    font-family: Sora;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.features__description {
+    margin-top: 24px;
+    color: var(--dark-1);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.text-hightlight-blue {
+    color: #1663F9;
+}
+
+.italic-tranform {
+    font-style: italic;
+}
+
+.sub-heading {
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px
+}
+
+h2 {
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 700;
+    text-align: center;
+}
+
+h2.sub-heading {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 34px;
+    line-height: 42px;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.body-3 {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.body-2 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}

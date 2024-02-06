@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MicPro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+<body>
+    <div class="app">
+        <!-- Header Section -->
+        <header>
+            <div class="grid wide">
+                <nav class="header__navbar">
+                    <!-- Logo -->
+                    <div class="header__navbar-logo">
+                        <img src="/assets/images/pro-mic-logo.png" alt="">
+                        <h5>MicPro</h5>
+                    </div>
+                    <!-- Navigation Menu -->
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item">
+                            <a class="header__navbar-link" href="">
+                                <div class="sub-heading">
+                                    Home
+                                </div>
+                            </a>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a class="header__navbar-link" href="">
+                                <div class="sub-heading">
+                                    Services
+                                </div>                                     
+                                <svg class="header__navbar-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M16.2071 9.79289C15.8166 9.40237 15.1834 9.40237 14.7929 9.79289L12 12.5858L9.20711 9.79289C8.81658 9.40237 8.18342 9.40237 7.79289 9.79289C7.40237 10.1834 7.40237 10.8166 7.79289 11.2071L11.2929 14.7071C11.6834 15.0976 12.3166 15.0976 12.7071 14.7071L16.2071 11.2071C16.5976 10.8166 16.5976 10.1834 16.2071 9.79289Z" fill="#1F2326"/>
+                                </svg>
+                            </a>    
+                        </li>
+                        <li class="header__navbar-item">
+                            <a class="header__navbar-link" href="">
+                                <div class="sub-heading">
+                                    Expertise
+                                </div>
+                                <svg class="header__navbar-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M16.2071 9.79289C15.8166 9.40237 15.1834 9.40237 14.7929 9.79289L12 12.5858L9.20711 9.79289C8.81658 9.40237 8.18342 9.40237 7.79289 9.79289C7.40237 10.1834 7.40237 10.8166 7.79289 11.2071L11.2929 14.7071C11.6834 15.0976 12.3166 15.0976 12.7071 14.7071L16.2071 11.2071C16.5976 10.8166 16.5976 10.1834 16.2071 9.79289Z" fill="#1F2326"/>
+                                </svg>
+                            </a> 
+                        </li>
+                        <li class="header__navbar-item">
+                            <a class="header__navbar-link" href="">
+                                <div class="sub-heading">
+                                    Cases
+                                </div>
+                            </a>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a class="header__navbar-link" href="">
+                                <div class="sub-heading">
+                                    Pricing
+                                </div>
+                            </a>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a class="header__navbar-link" href="">
+                                <div class="sub-heading">
+                                    Company
+                                </div>                                    
+                                <svg class="header__navbar-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M16.2071 9.79289C15.8166 9.40237 15.1834 9.40237 14.7929 9.79289L12 12.5858L9.20711 9.79289C8.81658 9.40237 8.18342 9.40237 7.79289 9.79289C7.40237 10.1834 7.40237 10.8166 7.79289 11.2071L11.2929 14.7071C11.6834 15.0976 12.3166 15.0976 12.7071 14.7071L16.2071 11.2071C16.5976 10.8166 16.5976 10.1834 16.2071 9.79289Z" fill="#1F2326"/>
+                                </svg>
+                            </a>  
+                        </li>
+                    </ul>
+                    <!-- Order Button -->
+                    <a href="" class="header__navbar-button">
+                        <div class="sub-heading">Order Now</div>
+                    </a>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section class="hero">
+                <div class="grid wide">
+                    <!-- Hero title -->
+                    <h1 class="hero__title">The Best way to grow your <span class="text-hightlight">Business<span></h1>
+                    <p class="hero__description">
+                        Imagine you don’t need a diet beacuse we provide healthy and delicious toad for you! 
+                        We are providing the best food delivery services.
+                    </p>
+                    <!-- Hero app download -->
+                    <div class="hero__app-stores">
+                        <a href="" class="hero__app-store hero__app-store--google"></a>
+                        <a href="" class="hero__app-store hero__app-store--apple"></a>
+                    </div>
+                    <!-- Ipad interface -->
+                    <div class="ipad-interface"></div>
+                </div>
+            </section>
+            <section class="features">
+                <div class="grid wide">
+                    <h1 class="features__title">Our Special <span class="text-hightlight-blue">Features</span></h1>
+                    <p class="features__description">This lesson provides a basic framework for conducting a recipe demonstration</p>
+                    <div class="row features__list">
+                        <div class="col l-4 m-4 c-12">
+                            <article class="features__item">
+                                <img src="assets/images/sausage-fried-rice-with-tomatoes-carrots-shiitake-mushrooms-plate.png" alt="" class="features__img">
+                                <h3 class="features__item-title">Exquisite Recipe</h3>
+                                <p class="features__item-text">
+                                    Phasollus risus turpis sit arnot magna non. 
+                                </p>
+                            </article>
+                        </div>
+                        <div class="col l-4 m-4 c-12">
+                            <article class="features__item">
+                                <img src="assets/images/chicken-skewers-with-slices-sweet-peppers-dill.png" alt="" class="features__img">
+                                <h3 class="features__item-title">Crispy Baked</h3>
+                                <p class="features__item-text">
+                                    Phasollus risus turpis sit arnot magna non. 
+                                </p>
+                            </article>
+                        </div>
+                        <div class="col l-4 m-4 c-12">
+                            <article class="features__item">
+                                <img src="assets/images/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table.png" alt="" class="features__img">
+                                <h3 class="features__item-title">Pasta Recipe</h3>
+                                <p class="features__item-text">
+                                    Phasollus risus turpis sit arnot magna non
+                                </p>
+                            </article>
+                        </div>    
+                    </div>
+                </div>
+            </section>
+            <section class="info grid">
+                    <div class="row m-gutter info__container">
+                        <div class="info__detail col l-3 m-4 c-12">
+                            <h2 class="info__detail-number">+20k</h2>
+                            <p class="info__detail-title">Trusted Retails</p>
+                        </div>
+                        <div class="info__detail col l-3 m-4 c-12">
+                            <h2 class="info__detail-number">+50k</h2>
+                            <p class="info__detail-title">Customers</p>
+                        </div>
+                        <div class="info__detail col l-3 m-4 c-12">
+                            <h2 class="info__detail-number">+400k</h2>
+                            <p class="info__detail-title">Review</p>
+                        </div>
+                    </div>
+            </section>
+            <section class="food grid wide">
+                <h2 class="food__title">
+                    Most Ordered Food in <span class="text-hightlight-blue">New York</span>
+                </h2>
+                <div class="food__container row m-gutter">
+                    <div class="food__container-left col l-6 m-6 c-12">
+                        <div class="food__card">
+                            <div class="food-img">
+                                <img src="/assets/images/fried-chicken-churchs-chicken-buffalo-wing-chicken-curry-chicken-ee09af4c7a0e93fe0d4f721b647820e2 1.png" alt="">
+                            </div>
+                            <div class="food__info">
+                                <h4 class="food__info-title">Chiken Curry</h4>
+                                <p class="food__info-description">1234 elgin st. Celina, newyork city 7894</p>
+                                <h4 class="food__info-price">$88</h4>
+                            </div>
+                            <a href="" class="order-button">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </a>
+                            
+                        </div>
+                        <div class="food__card">
+                            <div class="food-img">
+                                <img src="/assets/images/fried-chicken-churchs-chicken-buffalo-wing-chicken-curry-chicken-ee09af4c7a0e93fe0d4f721b647820e2 1.png" alt="">
+                            </div>
+                            <div class="food__info">
+                                <h4 class="food__info-title">Chiken Curry</h4>
+                                <p class="food__info-description">1234 elgin st. Celina, newyork city 7894</p>
+                                <h4 class="food__info-price">$88</h4>
+                            </div>
+                            <a href="" class="order-button">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </a>
+                        </div>
+                        <div class="food__card">
+                            <div class="food-img">
+                                <img src="/assets/images/fried-chicken-churchs-chicken-buffalo-wing-chicken-curry-chicken-ee09af4c7a0e93fe0d4f721b647820e2 1.png" alt="">
+                            </div>
+                            <div class="food__info">
+                                <h4 class="food__info-title">Chiken Curry</h4>
+                                <p class="food__info-description">1234 elgin st. Celina, newyork city 7894</p>
+                                <h4 class="food__info-price">$88</h4>
+                            </div>
+                            <a href="" class="order-button">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="food__container-right col l-6 m-6 c-12">
+                        <div class="food__card">
+                            <div class="food-img">
+                                <img src="/assets/images/fried-chicken-churchs-chicken-buffalo-wing-chicken-curry-chicken-ee09af4c7a0e93fe0d4f721b647820e2 1.png" alt="">
+                            </div>
+                            <div class="food__info">
+                                <h4 class="food__info-title">Chiken Curry</h4>
+                                <p class="food__info-description">1234 elgin st. Celina, newyork city 7894</p>
+                                <h4 class="food__info-price">$88</h4>
+                            </div>
+                            <a href="" class="order-button">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </a>
+                        </div>
+                        <div class="food__card">
+                            <div class="food-img">
+                                <img src="/assets/images/fried-chicken-churchs-chicken-buffalo-wing-chicken-curry-chicken-ee09af4c7a0e93fe0d4f721b647820e2 1.png" alt="">
+                            </div>
+                            <div class="food__info">
+                                <h4 class="food__info-title">Chiken Curry</h4>
+                                <p class="food__info-description">1234 elgin st. Celina, newyork city 7894</p>
+                                <h4 class="food__info-price">$88</h4>
+                            </div>
+                            <a href="" class="order-button">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </a>
+                        </div>
+                        <div class="food__card">
+                            <div class="food-img">
+                                <img src="/assets/images/fried-chicken-churchs-chicken-buffalo-wing-chicken-curry-chicken-ee09af4c7a0e93fe0d4f721b647820e2 1.png" alt="">
+                            </div>
+                            <div class="food__info">
+                                <h4 class="food__info-title">Chiken Curry</h4>
+                                <p class="food__info-description">1234 elgin st. Celina, newyork city 7894</p>
+                                <h4 class="food__info-price">$88</h4>
+                            </div>
+                            <a href="" class="order-button">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="" class="food__button">
+                        <h2 class="sub-heading">
+                            VIEW ALL FOOD <i class="fa-solid fa-arrow-right"></i>
+                        </h2>
+                    </a>
+                </div>
+            </section>
+            <section class="offer grid wide">
+                <h2 class="offer__title">
+                    Get The Best <span class="text-hightlight-blue">Offer</span>
+                </h2>
+                <p class="offer__description">
+                    Eat the food you dream about at affordable prices. No need to come to us just call is.
+                </p>
+                <div class="offer__container row m-gutter">
+                    <div class="offer__banner col l-6 m-6 c-12">
+                        <div class="offer__banner-info">
+                            <div class="offer__banner-title">Lunch Time</div>
+                            <div class="offer__banner-discount"><span class="text-hightlight-blue">30%</span>  OFF</div>
+                            <div class="offer__banner-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                            <a href="" class="offer__button">
+                                Order Now
+                            </a>
+                        </div>
+                    </div>
+                    <div class="offer__items col l-6 m-6 c-12">
+                        <a href="" class="offer__item">
+                            <img src="assets/images/baked-quails-pan-dark-surface.png" alt="" class="offer__item-img">
+                            <div class="offer__item-info">
+                                <div class="offer__item-title">
+                                    <div class="offer__item-text">Spicy Club</div>
+                                    <div class="separate-line"></div>
+                                    <div class="offer__item-price"><span class="italic-tranform">$</span> 42</div>
+                                </div>
+                                <p class="offer__item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu.</p>
+                            </div>
+                        </a>
+                        <a href="" class="offer__item">
+                            <img src="assets/images/nam-prik-ong-spicy-pork-with-vegetable-salad-thai-food.png" alt="" class="offer__item-img">
+                            <div class="offer__item-info">
+                                <div class="offer__item-title">
+                                    <div class="offer__item-text">Spicy Club</div>
+                                    <div class="separate-line"></div>
+                                    <div class="offer__item-price"><span class="italic-tranform">$</span> 42</div>
+                                </div>
+                                <p class="offer__item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu.</p>
+                            </div>
+                        </a>
+                        <a href="" class="offer__item">
+                            <img src="assets/images/grilled-beef-meat-steak-with-french-fries-onion-ring-with-sauce-fresh-vegetable.png" alt="" class="offer__item-img">
+                            <div class="offer__item-info">
+                                <div class="offer__item-title">
+                                    <div class="offer__item-text">Spicy Club</div>
+                                    <div class="separate-line"></div>
+                                    <div class="offer__item-price"><span class="italic-tranform">$</span> 42</div>
+                                </div>
+                                <p class="offer__item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="blog">
+                <div class="grid wide">
+                    <div class="blog__container row m-gutter">
+                        <div class="blog__info col l-6 m-12 c-12">
+                            <h2 class="blog__title">Our Food <span class="text-hightlight-blue">Blog</span></h2>
+                            <p class="blog__description">
+                                Eat the food you dream about at affordable prices. No need to come to us just call is.
+                            </p>
+                            <a href="" class="blog__button">
+                                Learn More <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                        <div class="blog__items col l-6 m-12 c-12">
+                            <a href="" class="blog__item">
+                                <img src="/assets/images/grilled-beef-meat-steak-with-french-fries-onion-ring-with-sauce-fresh-vegetable-full.png" alt="" class="blog__item-img">
+                                <div class="blog__item-info">
+                                    <div class="blog__item-index body-3">Blog 01</div>
+                                    <h5 class="blog__item-title">How to make a rice bowl?</h5>
+                                    <div class="blog__item-description body-2">Lorem ipsum dolor sit amet, consectetur so adipiscing elit, sed do eiusmod tempor the incididunt ut labore...</div>
+                                </div>
+                            </a>
+                            <a href="" class="blog__item">
+                                <img src="/assets/images/nam-prik-ong-spicy-pork-with-vegetable-salad-thai-food-full.png" alt="" class="blog__item-img">
+                                <div class="blog__item-info">
+                                    <div class="blog__item-index body-3">Blog 02</div>
+                                    <h5 class="blog__item-title">Get the pizza of the week.</h5>
+                                    <div class="blog__item-description body-2">Lorem ipsum dolor sit amet, consectetur so adipiscing elit, sed do eiusmod tempor the incididunt ut labore...</div>
+                                </div>
+                            </a>
+                            <a href="" class="blog__item">
+                                <img src="/assets/images/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table-full.png" alt="" class="blog__item-img">
+                                <div class="blog__item-info">
+                                    <div class="blog__item-index body-3">Blog 03</div>
+                                    <h5 class="blog__item-title">Make your burger like this.</h5>
+                                    <div class="blog__item-description body-2">Lorem ipsum dolor sit amet, consectetur so adipiscing elit, sed do eiusmod tempor the incididunt ut labore...</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>  
+                </div>
+            </section>
+            <section class="feedback grid wide">
+                <h2 class="feedback__title">What Our <span class="text-hightlight-blue">Clients</span> Say</h2>
+                <p class="feedback__description">
+                    Here, We make almost every genre of applications. Your name it and we build it.
+                </p>
+                <div class="feedback__container row m-gutter">
+                    <div class="feedback__card-left col l-6 m-6 c-12">
+                        <div class="feedback__card-content">
+                            <div class="feedback__info">
+                                <div class="feedback__user-avatar">
+                                    <img src="/assets/images/avatar-1.png" alt="">
+                                </div>
+                                <div class="feedback__user">
+                                    <div class="feedback__user-name">Yaron Shifman</div>
+                                    <div class="feedback__user-positon">CEO, Swathly Ltd</div>
+                                </div>
+                                <div class="feedback__rating">
+                                    <i class="feedback__rating-icon feedback__rating-icon--active fa-solid fa-star"></i>
+                                    <i class="feedback__rating-icon feedback__rating-icon--active fa-solid fa-star"></i>
+                                    <i class="feedback__rating-icon feedback__rating-icon--active fa-solid fa-star"></i>
+                                    <i class="feedback__rating-icon feedback__rating-icon--active fa-solid fa-star"></i>
+                                    <i class="feedback__rating-icon feedback__rating-icon--active fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="feedback-content">
+                                I’m very pleased with their work. When I need help with any 
+                                aspect of development, I’m able to call on them to take care of it. They’re professional and complete tasks in a timely manner.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feedback__card-right col l-6 m-6 c-12">
+                        <div class="feedback__card-content">
+                            <div class="feedback__info">
+                                <div class="feedback__user-avatar">
+                                    <img src="assets/images/avatar-2.png" alt="">
+                                </div>
+                                <div class="feedback__user">
+                                    <div class="feedback__user-name">Elmo Weber</div>
+                                    <div class="feedback__user-positon">Founder, Fair Friend </div>
+                                </div>
+                                <div class="feedback__rating">
+                                    <i class="feedback__rating-icon feedback__rating-icon--active fa-solid fa-star"></i>
+                                    <i class="feedback__rating-icon feedback__rating-icon--active fa-solid fa-star"></i>
+                                    <i class="feedback__rating-icon feedback__rating-icon--active fa-solid fa-star"></i>
+                                    <i class="feedback__rating-icon feedback__rating-icon--active fa-solid fa-star"></i>
+                                    <i class="feedback__rating-icon feedback__rating-icon--active fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="feedback-content">
+                                Scopic has never let me down. 
+                                I’m pleased with our partnership and they consistently develop reliable applications. They estimate a range of hours for each project and they manage it efficiently.
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+                <div class="carousel-indicators">
+                    <button type="button" class="carousel-indicators__button"></button>
+                    <button type="button" class="carousel-indicators__button"></button>
+                    <button type="button" class="carousel-indicators__button carousel-indicators__button--active"></button>
+                    <button type="button" class="carousel-indicators__button"></button>
+                    <button type="button" class="carousel-indicators__button"></button>
+                    <button type="button" class="carousel-indicators__button"></button>
+                  </div>
+            </section>
+            <section class="newsletter">
+                <div class="grid wide">
+                    <div class="newsletter__container">
+                        <div class="newsletter__image-container">
+                            <img src="/assets/images/hamburger-veggie-burger-chicken-sandwich-fast-food-hamburger-burger-png-image-2f3ef9ac42b1ff80a6f9a2950c5eacf9 1.png" alt="" class="newsletter__image">
+                        </div>
+                        <div class="newsletter__content">
+                            <div class="newsletter__discount-offer">
+                                <p class="newsletter__discount-text">$20 discount for your first order</p>
+                            </div>
+                            <div class="newsletter__heading">
+                                <h3 class="newsletter__heading-title">Join our newsletter and get updates</h3>
+                                <h2 class="newsletter__heading-description sub-heading">
+                                    Join our email subscription now to get updates on promotions and coupons.
+                                </h2>
+                            </div>
+                            <!-- <form class="newsletter__form" action="" method="post">
+                                <input type="email" class="newsletter__input" placeholder="Your email address" required>
+                                <button class="newsletter__submit-button">Subscribe</button>
+                            </form> -->
+                            <div class="input-group">
+                                <i class="input-group__icon fa-regular fa-envelope"></i>
+                                <input type="email" class="input-group__email" placeholder="Your email address" required>
+                                <button type="submit" class="input-group__submit">Subscribe</button>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="footer__top">
+                <div class="grid medium">
+                    <div class="row m-gutter">
+                        <div class="col l-4 m-4 c-12">
+                            <div class="footer__brand">
+                                <a class="footer__logo">
+                                    <img src="/assets/images/pro-mic-logo.png" alt="" class="footer__logo-img">
+                                    <h5 class="footer__logo-name">MicPro</h5>
+                                </a>
+                            </div>
+                            <p class="footer__description">
+                                he new allocation will help expand response to cover those.
+                            </p>
+                            <div class="footer__social-links">
+                                <a href="" class="footer__social-link footer__social-link--facebook">
+                                    <img src="/assets/images/facebook-icon.png" alt="">
+                                </a>
+                                <a href="" class="footer__social-link footer__social-link--google">
+                                    <img src="/assets/images/google-icon.png" alt="">
+                                </a>
+                                <a href="" class="footer__social-link footer__social-link--twitter">
+                                    <img src="/assets/images/twitter-icon.png" alt="">
+                                </a>
+                                <a href="" class="footer__social-link footer__social-link--dribbble">
+                                    <img src="/assets/images/dribble-icon.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="footer__columns col l-8 m-8 c-12">
+                            <div class="col l-3 m-3 c-6">
+                                <div class="footer__column">
+                                    <h2 class="footer__column-title sub-heading">Service</h2>
+                                    <ul class="footer__list">
+                                        <li class="footer__item">
+                                            <a href="" class="footer__item-link body-3">online order</a>  
+                                        </li>
+                                        <li class="footer__item">
+                                            <a href="" class="footer__item-link body-3">Pre-Reservation</a>
+                                        </li>
+                                        <li class="footer__item">
+                                            <a href="" class="footer__item-link body-3">24/7 Service</a>
+                                        </li>
+                                        <li class="footer__item">
+                                            <a href="" class="footer__item-link body-3">PCI Compliance</a>
+                                        </li>
+                                        <li class="footer__item">
+                                            <a href="" class="footer__item-link body-3">Integratlons</a>
+                                        </li>
+                                        <li class="footer__item">
+                                            <a href="" class="footer__item-link body-3">Pricing</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-3 c-6">
+                                <div class="footer__column">
+                                    <h2 class="footer__column-title sub-heading">Quick Links</h2>
+                                    <ul class="footer__list">
+                                        <li class="footer__item">
+                                            <a href="" class="footer__item-link body-3">Restaurants</a>  
+                                        </li>
+                                        <li class="footer__item">
+                                            <a href="" class="footer__item-link body-3">Review</a>
+                                        </li>
+                                        <li class="footer__item">
+                                            <a href="" class="footer__item-link body-3">Blog</a>
+                                        </li>
+                                        <li class="footer__item">
+                                            <a href="" class="footer__item-link body-3">Order Foods</a>
+                                        </li>
+                                        <li class="footer__item">
+                                            <a href="" class="footer__item-link body-3">Security</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-3 c-6">
+                                <div class="footer__column">
+                                    <h2 class="footer__column-title sub-heading">About</h2>
+                                    <ul class="footer__list">
+                                        <li class="footer__item">
+                                            <a href="" class="footer__item-link body-3">Our Story</a>  
+                                        </li>
+                                        <li class="footer__item">
+                                            <a href="" class="footer__item-link body-3">Benefits</a>
+                                        </li>
+                                        <li class="footer__item">
+                                            <a href="" class="footer__item-link body-3">Career</a>
+                                        </li>
+                                        <li class="footer__item">
+                                            <a href="" class="footer__item-link body-3">Contact Us</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-3 c-6">
+                                <div class="footer__column">
+                                    <h2 class="footer__column-title sub-heading">Help</h2>
+                                    <ul class="footer__list">
+                                        <li class="footer__item">
+                                            <a href="" class="footer__item-link body-3">Contact</a>  
+                                        </li>
+                                        <li class="footer__item">
+                                            <a href="" class="footer__item-link body-3">Support</a>
+                                        </li>
+                                        <li class="footer__item">
+                                            <a href="" class="footer__item-link body-3">FAQ</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__botton">
+                <div class="grid medium">
+                    <div class="footer__container">
+                        <ul class="footer__secondary-nav">
+                            <li class="footer__secondary-item"><a href="#" class="footer__secondary-link">Platform</a></li>
+                            <li class="footer__secondary-item"><a href="#" class="footer__secondary-link">Products</a></li>
+                            <li class="footer__secondary-item"><a href="#" class="footer__secondary-link">Resources</a></li>
+                          </ul>
+                        <div class="footer__copyright">
+                            © 2021 Besnik.com | All Rights Reserved
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
